@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:3000/books";
+const API_URL = "https://bkserver-3umz.onrender.com";
 
 export const getBooks = () => axios.get(API_URL);
 export const getBookById = (id) => axios.get(`${API_URL}/${id}`);
